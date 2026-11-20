@@ -55,4 +55,3 @@ h2.plain::after,h2.sage::after,h2.purple-h::after{display:none}h2.plain{color:#3
 .contact form{margin:0;gap:1.2rem}.contact label{font:400 .85rem var(--sans);color:#7a3e65}.contact label b{color:#d00}.contact input,.contact textarea,.contact select{font:inherit;font-size:.9rem;color:var(--purple);padding:.8rem;border:1px solid #6f8a5a;border-radius:3px;background:#fff;width:100%}
 .ph{display:grid;grid-template-columns:1fr 2.4fr;gap:.3rem}.sm-btn{justify-self:start;border:0;font-size:.8rem;cursor:pointer;padding:.55rem 1rem}
 @media(max-width:700px){.contact{grid-template-columns:1fr}.cl{border:0;padding:0}}
-
