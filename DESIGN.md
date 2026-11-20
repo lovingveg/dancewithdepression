@@ -13,7 +13,7 @@ A static replica of dancewithdepression.org (originally WordPress on Hostinger),
 | `approach.html` | Approach | Split hero, Our Approach, Financial Support, Hands-on Support, NAMIWalks Utah 2026 example |
 | `donate.html` | Donate | Podcast initiative card, NAMIWalks Utah 2026 card |
 | `contact.html` | Contact | Get in Touch hero, email, contact form |
-| `css/styles.css` | Styles | All colors, fonts, and layout (one file) |
+| `styles.css` | Styles | All colors, fonts, and layout (one file, same folder as the pages) |
 | `images/` | Local images | Add `hero.jpg` and `footer.jpg` here (see section 6) |
 | `DESIGN.md` | This document | |
 
@@ -21,7 +21,7 @@ The header and footer are copied into every HTML file, so a menu change means ed
 
 ## 2. Design tokens
 
-Defined at the top of `css/styles.css`. Values were estimated from screenshots; confirm exact brand values in WordPress (Appearance → Customize).
+Defined at the top of `styles.css`. Values were estimated from screenshots; confirm exact brand values in WordPress (Appearance → Customize).
 
 | Token | Value | Use |
 |---|---|---|
@@ -77,10 +77,10 @@ Fonts load from Google Fonts in each page's `<head>`.
 
 1. Upload the folder contents to a GitHub repository (Add file → Upload files).
 2. Host with GitHub Pages, Netlify, Cloudflare Pages, or upload the files to Hostinger's `public_html`.
-3. Keep `css/` and `images/` next to the HTML files, and remove old WordPress files from `public_html` first.
+3. Keep `styles.css` and the `images/` folder next to the HTML files, and remove old WordPress files from `public_html` first.
 4. Point the domain at the new host.
 
 ## 8. Change log
 
-- **19 Nov 2026:** CSS link now ends in `?v=20261119`; change the number after each CSS edit so browsers and Hostinger fetch the new file.
+- **20 Nov 2026:** `styles.css` moved into the main folder (no `css/` folder) so it uploads with the pages. CSS link now ends in `?v=20261120`; change the number after each CSS edit so browsers and Hostinger fetch the new file.
 - **19 Nov 2026:** first version, then restyled to match screenshots of Home, About, Approach, Donate, Contact. Podcast initiative moved into a lavender card on Donate.
