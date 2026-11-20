@@ -82,4 +82,5 @@ Fonts load from Google Fonts in each page's `<head>`.
 
 ## 8. Change log
 
+- **19 Nov 2026:** CSS link now ends in `?v=20261119`; change the number after each CSS edit so browsers and Hostinger fetch the new file.
 - **19 Nov 2026:** first version, then restyled to match screenshots of Home, About, Approach, Donate, Contact. Podcast initiative moved into a lavender card on Donate.
