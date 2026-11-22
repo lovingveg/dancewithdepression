@@ -1,0 +1,7 @@
+# Short addresses go to the pages
+RewriteEngine On
+RewriteRule ^about/?$ about.html [R=301,L]
+RewriteRule ^approach/?$ past-projects.html [R=301,L]
+RewriteRule ^past-projects/?$ past-projects.html [R=301,L]
+RewriteRule ^donate/?$ donate.html [R=301,L]
+RewriteRule ^contact/?$ contact.html [R=301,L]
